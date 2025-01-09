@@ -150,9 +150,17 @@ body {
 }
 
 /* Footer */
-footer {
-	margin:var(--spacing-xxl) 0;            /* 4rem (64px) top and bottom */
-    font-size:var(--scale-0);
+.container footer {
+    margin: var(--spacing-xxl) 0; /* 4rem (64px) top and bottom */
+    font-size: var(--scale-0); /* This sets the base font size */
+    text-align: center; /* Center the text */
+}
+
+.container footer p {
+    display: inline; /* Display paragraphs inline */
+    font-size: 1em; /* Set a smaller font size */
+    margin: 0; /* Remove default margin */
+    line-height: 1; /* Ensure tight line height */
 }
 
 /* Responsive adjustments */
